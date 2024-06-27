@@ -18,7 +18,11 @@
 
 - [카페 영수증]
 
+<img src="https://github.com/jongheonleee/data_modelling/assets/87258372/ccf2ee5b-ec49-4d0a-9272-b57dbafe187c" width="500" height="500"/>
+
 - [그룹핑 결과]
+
+<img src="https://github.com/jongheonleee/data_modelling/assets/87258372/095f82b0-b010-4c6f-b464-f506ee2bd568" width="500" height="500"/>
 
 - bottom-up 방식으로 접근, 일단 보여줘야 할 속성들 다 기록
 - 해당 속성들을 포함하는 하나의 엔티티 만듦
@@ -33,8 +37,12 @@
 - 엔티티 : '실체'이거나 '개념적인' 것. 자세히 말하면, 업무를 구현하는 데 필요하고 관리해야 하는 주체, 대상, 행위 등의 모든 집합적인 것 
 - [서브타입 슈퍼타입]
 
+<img src="https://github.com/jongheonleee/data_modelling/assets/87258372/5eb0a5c7-c0e1-46df-9a70-b3b3ce9814b9" width="500" height="500"/>
 
 - [상위 수준과 하위 수준 엔티티의 일반화]
 
+<img src="https://github.com/jongheonleee/data_modelling/assets/87258372/e34ccb5b-4702-4f8c-810f-9f9a0affc906" width="500" height="500"/>
 
 - [고객 일반화]
+
+<img src="https://github.com/jongheonleee/data_modelling/assets/87258372/b2d503d7-3f83-436d-b41f-69b920edc946" width="500" height="500"/>
