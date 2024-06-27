@@ -131,10 +131,10 @@
 > ### 👉 관계형 데이터 모델(릴레이션), 관계형 모델의 키, 제약조건, 함수 종속, 정규화
 
 - [관계형 데이터 모델]
-  <img src="" width="500" height="500"/>
+  <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/977b32fb-8214-4b97-b216-ce4a7a80b030" width="500" height="500"/>
 
 - [관계형 모델의 키]
-  <img src="" width="500" height="500"/>
+  <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/fc8c0f34-d735-4a31-8bf5-d32662004309" width="500" height="500"/>
 
   - 슈퍼키 : 튜플을 고유하게 식별 할 수 있는 속성 집합
   - 후보키 : 튜플을 고유하게 식별 할 수 있는 최소한의 속성 집합
@@ -150,7 +150,7 @@
   - 참조 무결성 : 참조 FK
 
 - 함수 종속
-  <img src="" width="500" height="500"/> 
+  <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/08a7b981-c692-4f6d-a4cd-4012697cffc3" width="500" height="500"/> 
   - 수학의 집합론 기반 
 
 
@@ -165,14 +165,14 @@
   - 정규화를 너무 많이 할 경우 다시 역정규화 할 수 있음
   
 - 제 1 정규화 : 컬럼 원자성
-  <img src="" width="500" height="500"/>
+  <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/903a33ee-1e7c-43e5-94cc-93683dcdf9bc" width="500" height="500"/>
   - 컬럼 원자성, 관계형 테이블은 중복되는 행이 없어야 하고, 모든 열의 값은 원자값을 가져야함 
     
 
 - 제 2 정규화 : 부분 종속 해소
-  <img src="" width="500" height="500"/>
+  <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/d8fceca8-1483-418f-aa5e-a5bacf3a12ba" width="500" height="500"/>
   - 후보키에 종속적이지 않거나 후보키 일부 어트리뷰트에 종속적인 어트리뷰트는 별도 릴레이션으로 분리해야함 
 
 - 제 3 정규화 : 이행적 종속 해소
-  <img src="" width="500" height="500"/>
+  <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/280c9bd4-2895-4d3f-ad1c-7fd8a4b8154b" width="500" height="500"/>
   - 키가 아닌 어떤 어트리뷰트가 다른 어트리뷰트에 종속된 경우 별도 릴레이션으로 분리 
