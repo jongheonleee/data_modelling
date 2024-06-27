@@ -151,7 +151,8 @@
 
 - 함수 종속
   - [함수 종속]
-    <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/08a7b981-c692-4f6d-a4cd-4012697cffc3" width="500" height="500"/> 
+    <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/08a7b981-c692-4f6d-a4cd-4012697cffc3" width="500" height="500"/>
+  
   - 수학의 집합론 기반 
 
 
