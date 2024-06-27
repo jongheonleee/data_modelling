@@ -150,7 +150,8 @@
   - 참조 무결성 : 참조 FK
 
 - 함수 종속
-  <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/08a7b981-c692-4f6d-a4cd-4012697cffc3" width="500" height="500"/> 
+  - [함수 종속]
+    <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/08a7b981-c692-4f6d-a4cd-4012697cffc3" width="500" height="500"/> 
   - 수학의 집합론 기반 
 
 
@@ -165,14 +166,17 @@
   - 정규화를 너무 많이 할 경우 다시 역정규화 할 수 있음
   
 - 제 1 정규화 : 컬럼 원자성
+  - [제 1 정규화]
   <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/903a33ee-1e7c-43e5-94cc-93683dcdf9bc" width="500" height="500"/>
   - 컬럼 원자성, 관계형 테이블은 중복되는 행이 없어야 하고, 모든 열의 값은 원자값을 가져야함 
     
 
 - 제 2 정규화 : 부분 종속 해소
+  - [제 2 정규화]
   <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/d8fceca8-1483-418f-aa5e-a5bacf3a12ba" width="500" height="500"/>
   - 후보키에 종속적이지 않거나 후보키 일부 어트리뷰트에 종속적인 어트리뷰트는 별도 릴레이션으로 분리해야함 
 
 - 제 3 정규화 : 이행적 종속 해소
+  - [제 3 정규화]
   <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/280c9bd4-2895-4d3f-ad1c-7fd8a4b8154b" width="500" height="500"/>
   - 키가 아닌 어떤 어트리뷰트가 다른 어트리뷰트에 종속된 경우 별도 릴레이션으로 분리 
