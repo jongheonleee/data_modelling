@@ -90,13 +90,13 @@
 
 - (1) 단순 속성 / 복합 속성 : 기본값 / 참조값(n개)
   - [단순 속성 / 복합 속성]
-    <img src="" width="500" height="500"/>
+    <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/d7cc858f-970d-4da8-8cbb-cef3eba37d71" width="500" height="500"/>
 
 - (2) 저장 속성 / 파생 속성 : 저장된 값 / 계산된 값
   - [저장 속성 / 파생 속성]
-    <img src="" width="500" height="500"/>
+    <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/f531ecfe-aa28-4a26-8af8-b931e83b418b" width="500" height="500"/>
 
 - (3) 단일 값 속성 / 다중 값 속성 : 1개 / n개 
   - [단일 값 속성 / 다중 값 속성]
-    <img src="" width="500" height="500"/>
-
+    <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/63873867-1910-4b15-b2c0-535d87f3fdc1" width="500" height="500"/>
+    <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/0203dd76-bbe5-4906-9028-59746b0be5cc" width="500" height="500"/>
