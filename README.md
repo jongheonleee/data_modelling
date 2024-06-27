@@ -115,13 +115,13 @@
   - 주 식별자 / 보조 식별자
 
 - [식별자를 최소 속성으로 구성 x]
-  <img src="" width="500" height="500"/>
+  <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/d8b50d73-cf02-4ed3-b930-13733ab12ae7" width="500" height="500"/>
 
 - [식별자의 속성 값이 변경됨]
-  <img src="" width="500" height="500"/>
+  <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/3b786028-07a4-4bce-9e5a-5ce27fdb697d" width="500" height="500"/>
 
 - [본질 식별자와 인조 식별자]
-  <img src="" width="500" height="500"/> 
+  <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/45145603-492a-41f1-a135-1dabc2630bf3" width="500" height="500"/> 
   - 주문일련번호 -> 할인 이벤트가 생기면 같은 상품의 가격이 상이 할 때 문제 없이 저장할 수 있음
   - 상품코드로 사용하는 경우, 중복된 pk 발생으로 저장할 수 없음 
 
