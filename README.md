@@ -49,13 +49,21 @@
 
 - [관계]
 
-<img src="" width="500" height="500"/>
+<img src="https://github.com/jongheonleee/data_modelling/assets/87258372/70cdc6fa-0f5c-4093-993f-91f5fba43af4" width="500" height="500"/>
 
 
 - 관계는 크게 3가지로 구분
   - (1) 관계수 : 둘 엔티티 간의 대응되는 수를 의미, 1-1, 1-M, M-N
-  - (2) 선택성 : 필수인지, 선택인지 
+  - [관계수]
+  <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/ab14bcbb-cc87-4300-aafa-d2d2301183ee" width="500" height="500"/>
+
+  - (2) 선택성 : 필수인지, 선택인지
+  - [선택성]
+  <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/1eff9c4a-bea4-497b-a1f7-e36583139076" width="500" height="500"/>
+
   - (3) 식별성(식별자 상속) : pk이면서 fk
+  - [식병성]
+  <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/af665137-47ba-4e17-8c87-c376a39a7f29" width="500" height="500"/>
 
 - 식별성에서 잘못된 설계를 하면, 예를들어 식별자 상속 관계인데 잘못 설계하면 불피요한 인덱스를 하나 더 사용하게된다.
 - 인덱스 개수가 늘어날 때 마다 성능은 급격하게 저하
@@ -63,10 +71,9 @@
 
 - [관계 유형]
 
-<img src="" width="500" height="500"/>
+<img src="https://github.com/jongheonleee/data_modelling/assets/87258372/cd4b9524-18a1-4a86-8b2c-1052757e4ef6" width="500" height="500"/>
+
 
 > ### 👉 교차 테이블은 M:N관계와 병렬관계 해소하기 위해 사용됨
 
-
-
-<img src="" width="500" height="500"/>
+<img src="https://github.com/jongheonleee/data_modelling/assets/87258372/cc0e7e90-094f-456c-910a-46eafe5600ca" width="500" height="500"/>
