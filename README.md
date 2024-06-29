@@ -385,7 +385,7 @@
 > ### 👉 논리 모델링 단계에서는 모든 것이 명확하고 상세해야함 
 - 단어 및 용어 통일, 구체적인 용어 사용
   - [앤티티명 명명 규칙 예시]
-  - <img src="" width="500" height="500"/> 
+  - <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/ae99299d-5f6c-45e1-9d3b-20c67ce0e05f" width="500" height="500"/> 
 
 <br>
 <br>
@@ -394,24 +394,23 @@
 
 
 > ### 👉 주체나 대상에 해당하는 속성 등을 파악해서 관계를 도출 -> 주체 / 대상 / 상세 / 인과 / 역할&자격 / 구성&포함 / 참조
-  - [관계 도출 대표 예시]
-  - <img src="" width="500" height="500"/>
-  - <img src="" width="500" height="500"/> 
+  - [관계 도출 대표 예시
+  - <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/236350e9-6d11-4d59-a5ba-1c6eb15a6ae6" width="500" height="500"/>
+  - <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/f25132a1-56af-431f-a270-adf9a634af36" width="500" height="500"/> 
 <br>
 
 > ### 👉 관계를 맺을 때는 양방향으로 맺는다.
 - [관계 정의]
-- <img src="" width="500" height="500"/>
-- <img src="" width="500" height="500"/>
-- <img src="" width="500" height="500"/>
-- <img src="" width="500" height="500"/>
+
+- <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/27c9ff38-98c0-4bd4-a795-cdf5ff92d78c" width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/dce799c4-4b2c-46fb-833b-5bdb991eb157" width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/380966b8-fb7a-4a67-9311-6fc4bdfdb2bb" width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/5e46b5a9-8d15-4b4b-927f-b2ff0cb1837d" width="500" height="500"/>
   
 - (1) 선택수 : A가 있다면 B는 최대 몇 개까지 가능할까? B가 있다면 A는 최대 몇 개까지 가능할까?
 - (2) 선택성 : A가 있다면 B는 있어야 할까? B가 있다면 A는 있어야 할까?
 - (3) 식별자 상속 : A와 B는 긴밀한 관계인가?
 
-<br>
-- 
 
 <br>
 
