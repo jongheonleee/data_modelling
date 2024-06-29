@@ -338,9 +338,9 @@
 - 업무 행위의 주체나 대상에 종속되는 경우가 많음 
 - 업무의 핵심 기능과 밀접한 관련, 주요 업무에서 반복하여 발생하는 데이터를 관리 
   - [업무영역 중요 엔티티]
-  - <img src="" width="500" height="500"/>
+  - <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/1bccbc0e-d4af-472b-aedf-b644f0f563d1" width="500" height="500"/>
   - [계좌는 고객과 상품 간의 관계 엔티티]
-  - <img src="" width="500" height="500"/>
+  - <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/86acda6e-c828-4bc9-a5c1-0b85aa6709d7" width="500" height="500"/>
   
   
 <br>
@@ -369,16 +369,14 @@
         - <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/b37b28c7-ab71-4937-94a5-5d5247493b14" width="500" height="500"/>
         - [이력관리 범위 및 형태]
         - <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/eeacbfc4-f1d2-4e97-bde7-b429c5b94fe0" width="500" height="500"/>
-        - [전체 항목 이력 관리
-        - <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/eda39b0d-d839-4236-85c2-bb37713af3b8" width="500" height="500"/>
         - [변경 항목만 이력 관리]
         - <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/27671a21-a9cb-4abf-a60a-2a032323e746" width="500" height="500"/>
         - [점 이력]
-        - <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/22cdd422-2141-4e8e-9483-46f74e0073cf" width="500" height="500"/>
+        - <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/fb1178b6-3835-4b5f-9927-28d1371a0748" width="500" height="500"/>
         - [선분 이력]
         - <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/f359ef7e-ec1c-4107-b84e-8f51b2ba5d74" width="500" height="500"/>
         - [최종 데이터 포함 이력]
-        - <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/b602b41c-fde9-4d3a-b071-039c65f6fbfa" width="500" height="500"/>
+        - <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/6acd4d2a-8188-4186-b4ce-23e9638cd8dc" width="500" height="500"/>
         - <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/a69e8291-7bc1-45a7-b6a0-adf83aa98d5c" width="500" height="500"/>  
   - (4) 기타(교차) : 교차 테이블 활용 위에 '교차 테이블' 참고
 
