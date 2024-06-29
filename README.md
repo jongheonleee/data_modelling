@@ -159,6 +159,7 @@
 - [본질 식별자와 인조 식별자]
   
 - <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/45145603-492a-41f1-a135-1dabc2630bf3" width="500" height="500"/> 
+
   - 주문일련번호 -> 할인 이벤트가 생기면 같은 상품의 가격이 상이 할 때 문제 없이 저장할 수 있음
   - 상품코드로 사용하는 경우, 중복된 pk 발생으로 저장할 수 없음 
 
