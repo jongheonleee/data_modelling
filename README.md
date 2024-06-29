@@ -350,13 +350,13 @@
 - 업무 행위에 따른 결과를 상태로 나타내는 엔티티
 - 중요 엔티티에 종속되거나 다른 행위 엔티티에 종속되는 경우가 많음 
   - [행위 엔티티 유형]
-  - <img src="" width="500" height="500"/>
+  - <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/3469ef5a-be5f-44bf-a619-08e841d00252" width="500" height="500"/>
 - 크게 4가지로 구분할 수 있음 
   - (1) 상세/내역 : 중요 엔티티에 해당하는 행위 엔티티를 구성하는 항목 단위로 분류
     - 품의내역, 입찰품목내역, 예산내역
   - (2) 상태 : 업무는 단계적으로 처리됨, 또한 업무를 처리하는 흐름이 있음 
     - [결재 프로세스]
-    - <img src="" width="500" height="500"/>
+    - <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/250789a8-f4d3-4b6e-a33e-045fdebfa55a" width="500" height="500"/>
   - (3) 이력 : 데이터가 변경되었을 때 변경 전 데이터를 추가로 관리 
     - 이력의 경우 어느 범위까지 관리할지, 현재를 포함할지 말지, 점으로 관리할지 선분으로 관리할지에 따라 여러 형태로 나뉨
     - 이력관리는 크게 5가지로 구분
@@ -366,20 +366,21 @@
       - (4) 일부 이력 : 변경 항목만 관리
       - (5) 현재값 포함 : 현재 값도 포함해서 관리 
         - [이력 엔티티]
-        - <img src="" width="500" height="500"/>
+        - <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/b37b28c7-ab71-4937-94a5-5d5247493b14" width="500" height="500"/>
         - [이력관리 범위 및 형태]
-        - <img src="" width="500" height="500"/>
-        - [전체 항목 이력 관리]
-        - <img src="" width="500" height="500"/>
+        - <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/eeacbfc4-f1d2-4e97-bde7-b429c5b94fe0" width="500" height="500"/>
+        - [전체 항목 이력 관리
+        - <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/eda39b0d-d839-4236-85c2-bb37713af3b8" width="500" height="500"/>
         - [변경 항목만 이력 관리]
-        - <img src="" width="500" height="500"/>
+        - <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/27671a21-a9cb-4abf-a60a-2a032323e746" width="500" height="500"/>
         - [점 이력]
-        - <img src="" width="500" height="500"/>
+        - <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/22cdd422-2141-4e8e-9483-46f74e0073cf" width="500" height="500"/>
         - [선분 이력]
-        - <img src="" width="500" height="500"/>
+        - <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/f359ef7e-ec1c-4107-b84e-8f51b2ba5d74" width="500" height="500"/>
         - [최종 데이터 포함 이력]
-        - <img src="" width="500" height="500"/>
-  - (4) 기타(교차) : 
+        - <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/b602b41c-fde9-4d3a-b071-039c65f6fbfa" width="500" height="500"/>
+        - <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/a69e8291-7bc1-45a7-b6a0-adf83aa98d5c" width="500" height="500"/>  
+  - (4) 기타(교차) : 교차 테이블 활용 위에 '교차 테이블' 참고
 
 ### 03 관계 도출 및 정의 : 
 
