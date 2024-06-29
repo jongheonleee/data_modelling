@@ -320,16 +320,16 @@
 - 핵심 엔티티는 크게 4가지로 구분
   - (1) 유형 및 분류 : 카테고리 대/중/소 분류, 고객유형코드, 상품분류코드 -> 계층 구조를 갖음 
     - [유형 및 분류]
-    - <img src="" width="500" height="500"/>
+    - <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/6da697ef-9cf3-4b54-885e-3aef0da50f5f" width="500" height="500"/>
   - (2) 업무규칙 및 지식 : 업무처리를 위한 각종 규정과 지식, 조건 -> 회원등급, 보험료 조건, 직급별 연봉
     - [서비스 - 자격, 자격 - 요건 업무규칙 정의]
-    - <img src="" width="500" height="500"/>
+    - <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/4780e8c2-972a-49a7-9696-857adcb10d7d" width="500" height="500"/>
   - (3) 업무줴 및 대상 : 이벤트 주체 또는 대상 -> 부서, 사원, 고객, 상품
     - [업무 주체 및 대상]
-    - <img src="" width="500" height="500"/>
+    - <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/e6ebe7fd-6435-4233-93a5-4485bc3736cd" width="500" height="500"/>
   - (4) 장소 : 이벤트가 발생하는 곳 -> 공장, 도로, 채널 
     - [장소]
-    - <img src="" width="500" height="500"/>
+    - <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/210b447d-bf9c-40ce-813c-fb6a554a82a3" width="500" height="500"/>
 
 <br>
 
