@@ -3,7 +3,7 @@
 <br>
 
 ## ⭐️ 목표
-> ### 핵심 데이터 모델링 n번 반복(현재 : 🏃🏻) 
+> ### 핵심 데이터 모델링 n번 반복, 가끔은 정독(현재 : 🏃🏻) 
 > ### 내 개인 프로젝트 완성 시키기 -> ODang's!(오당쓰)
 
 <br>
@@ -563,13 +563,13 @@
 
 > ### 👉 엔티티 & 속성 -> 테이블 도출
 
-<br>
 
 - [테이블 도출 유형]
-- <img src="" width="500" height="500"/>
-- <img src="" width="500" height="500"/>
-- <img src="" width="500" height="500"/>
-- <img src="" width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/ad563f6f-12cb-4370-a85d-1e7ec1b8807d" width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/692cfa52-cfab-44df-94b4-e8eb4608fcfd" width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/3e96be5e-2192-4401-b5af-f464bf25253a" width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/23df0118-398c-421e-9bfa-7147c4e03087" width="500" height="500"/>
+
 
 <br>
 
@@ -578,15 +578,13 @@
 <br>
 
 - [기본적인 관계]
-- <img src="" width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/44b49de0-1bed-412d-adc4-a2a6b32e63d4" width="500" height="500"/>
 - 관계수, 선택성, 식별자 상속으로 기본적인 관계 잡기
 
 <br>
 
 - [상호 배타적 관계]
-- <img src="" width="500" height="500"/>
-- <img src="" width="500" height="500"/>
-- <img src="" width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/26b2a309-d6e1-4356-886b-5427afedac76" width="500" height="500"/>
 - 개인, 법인, 단체는 서로 베타적인 관계
   - FK를 하나로 관리하거나 분리해서 관리 할 수 있음
   - 분리해서 관리할 경우 각 FK는 not null 제약 처리 못함
@@ -596,16 +594,17 @@
 <br>
 
 - [재귀적 관계]
-- <img src="" width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/444a7a04-c7f7-442a-8833-01ad36f4e3f0" width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/ef815339-d629-4776-b56d-2c0795b8c4ae" width="500" height="500"/>
 - 대중소 카테고리 분류, 업무상 분류에서 나타나는 계층 구조 
 - 유연하지만 성능은 낮음
 
 <br>
 
 - [관계 옵셔널리티 확정]
-- <img src="" width="500" height="500"/>
-- <img src="" width="500" height="500"/>
-- <img src="" width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/1fb8c02d-eea0-428c-8e42-1251cd288ec2" width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/d7cbee8b-b91d-4b3f-ab06-09823af735ed" width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/5644d335-80c3-4723-896e-ffea16830b3f" width="500" height="500"/>
 - 선택성
   - (1) 필 - 필
   - (2) 필 - 선
@@ -618,7 +617,7 @@
 <br>
 
 - [시스템 컬럼 추가]
-- <img src="" width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/4c115e02-26a0-443c-ad3b-95273822eec4" width="500" height="500"/>
 - 시스템 컬럼 -> 최초등록일시, 최초등록자식별번호, 최종수정일시, 최종수정자식별번호 컬럼
 - 시스템 컬럼은 모든 테이블에 공통으로 추가하며, 테이블 가장 마지막에 위치하도록 함 
 
@@ -642,12 +641,12 @@
     - 개발자는 VARCHAR2 선호, DATE의 경우 정확도가 떨어짐. 하지만, VARCHAR2는 문자열이기 때문에 오차가 없음
     - VARCHAR2의 경우, 문자 타입이기 때문에 날짜가 아닌 데이터가 유입될 문제가 있음
       - 물론, CHCK CONSTRAINT를 추가해서 잘못된 데이터 유입을 방지할 수 있음
-      - <img src="" width="500" height="500"/>
+      - <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/3c4e7998-227b-491d-9bff-ab77b55e4f39" width="500" height="500"/>
     - 따라서, 그 팀에서 추구하는 방향에 맞게 선정하는 것이 좋음
   
 
 - [PRC]
-- <img src="" width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/0ac56ccc-44f8-4a1e-98b6-f6db34f921a5" width="500" height="500"/>
 
 <br>
 
@@ -663,15 +662,15 @@
   - 데이터를 저장하고 관리할 때 데이터의 정확성과 일관성을 유지하기 위해 사전에 정의한 규칙
     - (1) 실체 무결성 : 기본키와 관련있음, 모든 실체는 식별자를 가지고 있음, 그 식별자 값은 Not Null 이고 실체 내에서 유일한 값임 -> Primary Key, Unique
       - [실체 무결성 제약조건]
-      - <img src="" width="500" height="500"/>
+      - <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/6b3efaf5-e5d9-430d-a4ba-047880b34e1b" width="500" height="500"/>
 
     - (2) 영역 무결성 : 데이터의 속성 값들은 정해진 범위를 벗어나면 안됨, 데이터 타입, 길이, 유효값을 일관되게 유지 -> CHECK, DEFAULT, NOT NULL 
       - [영역 무결성 제약조건]
-      - <img src="" width="500" height="500"/>
+      - <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/7ad25d8f-75aa-464e-800d-16e911424fea" width="500" height="500"/>
   
     - (3) 참조 무결성 : 데이터 모델에서 정의된 실체 간의 관계 조건을 유지하는 것 -> FOREIGN KEY
       - [참조 무결성 제약조건]
-      - <img src="" width="500" height="500"/>
+      - <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/4466d626-0b80-4091-98a6-e03ef0a34832" width="500" height="500"/>
   
   - 데이터 오염을 방지 -> DB 내의 데이터가 현실세계의 올바른 데이터를 갖도록 보장
 
@@ -685,23 +684,23 @@
   <br>
 
   - (2) 컬럼 추가 : 성능 개선 -> 반정규화 / 중복 컬럼 추가 
-    - [중복 컬럼 추가 경우1]
-    - <img src="" width="500" height="500"/>
-    - <img src="" width="500" height="500"/>
+    - [중복 컬럼 추가 경우]
+    - <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/2078183a-c968-494a-a531-f10962c33406" width="500" height="500"/>
+    - <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/8e0b2b6c-8748-43d5-b853-7b75884b7a0d" width="500" height="500"/>
     - 양쪽 테이블에 분산된 조회 조건을 한 쪽 테이블에서 같이 체크하여 처리 범위를 줄이도록 구조 변경
     - '주문일자'와 '상품코드'로 구성된 인덱스 추가 -> 주문 테이블에서 필요한 컬럼 데이터를 가져옴, 처리량 크게 줄임
   <br>
     
     - [부모 테이블 중복 컬럼 추가]
-    - <img src="" width="500" height="500"/>
+    - <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/5286420c-c45b-4a31-a429-694c9e9c1e28" width="500" height="500"/>
 
   - (3) 테이블 분할 : 성능 개선 -> 수직 분할(칼럼 분할) / 수평 분할(로우 분할)
     - 수직 분할 : 칼럼 분할 
     - [테이블 수직분할]
-    - <img src="" width="500" height="500"/>
+    - <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/2a0cb4e7-aaa0-4a97-a313-3f93cb7e1c1a" width="500" height="500"/>
   
   <br>
 
     - 수평 분할 : 로우 분할
     - [테이블 수직분할]
-    - <img src="" width="500" height="500"/>
+    - <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/8deb7d73-398a-47a2-9930-60d7dac6f9f3" width="500" height="500"/>
