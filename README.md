@@ -286,7 +286,7 @@
 
   - <img src="https://github.com/jongheonleee/data_modelling/assets/87258372/ddff6651-fe00-42e0-89d7-bb7f97fa5472" width="500" height="500"/>
 
-- 주제영역 분류 및 정의 : <strong>각 각 계략적으로 정의</strong>
+- 주제영역 분류 및 정의 : <strong>각 각 개략적으로 정의</strong>
   - 주제영역 도출 -> 분류 및 그룹핑 
   - 글쓰기 적극 활용 
   - [주제영역 프레임 워크]
